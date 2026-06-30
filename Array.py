@@ -113,7 +113,7 @@ from array import *
 val = array('i',[1,2,3,4,5,6,7,8,9])
 
 copyArray = array(val.typecode,(x for x in val))
-# copyArray = array(val.typecode,(x*2 for x in val))
+copyArray = array(val.typecode,(x*2 for x in val))
 
 copyArray.pop(3)
 copyArray.pop()
